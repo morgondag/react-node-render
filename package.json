@@ -10,6 +10,8 @@
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
     "should": "^8.2.2"
+  "bin": {
+    "react-renderer": "./cli.js"
   },
   "scripts": {
     "test": "node node_modules/mocha/bin/mocha -R spec",
