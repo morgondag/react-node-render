@@ -1,3 +1,6 @@
+#!/usr/bin/env node
+'use strict'
+
 const React = require('react')
 const ReactDOMServer = require('react-dom/server')
 require('babel-core/register')
