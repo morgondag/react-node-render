@@ -1,8 +1,18 @@
 # react-node-render
 Simply render React components in Node.js
 
+### Node_module
+```npm install react-node-render --save```
+```js
+const render = require('react-node-render')
+const html = render('myComponent.jsx')
+console.log(html)
+```
 
-### node_module
+### Cli
+**Install:**
+```npm install react-node-render -g```
 
-### cli
-
+**Use:**
+```rnr myComponent.jsx```
+*myComponent.html is now created*
