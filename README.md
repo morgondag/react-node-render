@@ -15,10 +15,13 @@ console.log(html)
 
 ### Cli
 **Install:**
+
 ```npm install react-node-render -g```
 
 **Use:**
+
 ```rnr myComponent.jsx```
+
 *myComponent.html is now created*
 
 
