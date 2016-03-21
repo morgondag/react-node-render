@@ -9,7 +9,10 @@
   },
   "scripts": {
     "test": "node node_modules/mocha/bin/mocha -R spec",
-    "start": "node index.js"
+    "start": "node index.js",
+    "coverage": "node --harmony ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -R --u",
+    "coveralls": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage",
+    "test-travis": "node --harmony ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -R --lcovonly --bail"
   },
   "engines": {
     "node": ">=5.0.0"
@@ -51,6 +54,8 @@
   "author": "kim@morgondag.nu",
   "license": "MIT",
   "devDependencies": {
+    "coveralls": "^2.11.8",
+    "istanbul": "^0.4.2",
     "mocha": "^2.4.5"
   }
 }
