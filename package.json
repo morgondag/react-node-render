@@ -1,11 +1,11 @@
 {
-  "name": "react-renderer",
+  "name": "react-node-render",
   "version": "0.0.1",
   "description": "Simply render React components in Node.js",
-  "url": "https://github.com/morgondag/react-renderer",
+  "url": "https://github.com/morgondag/react-node-render",
   "main": "index.js",
   "bin": {
-    "react-renderer": "./cli.js"
+    "rnr": "./cli.js"
   },
   "scripts": {
     "test": "node node_modules/mocha/bin/mocha -R spec",
@@ -46,7 +46,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/morgondag/react-renderer.git"
+    "url": "https://github.com/morgondag/react-node-render.git"
   },
   "author": "kim@morgondag.nu",
   "license": "MIT",
