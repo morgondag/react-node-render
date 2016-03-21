@@ -1,4 +1,5 @@
-![travis](https://travis-ci.org/morgondag/react-node-render.svg?branch=master)
+[!Travis][travis]
+[![NPM version][npm-image]][npm-url]
 
 # react-node-render
 Simply render React components in Node.js
@@ -18,3 +19,8 @@ console.log(html)
 **Use:**
 ```rnr myComponent.jsx```
 *myComponent.html is now created*
+
+
+[travis]: https://travis-ci.org/morgondag/react-node-render.svg?branch=master
+[npm-image]: https://img.shields.io/npm/v/react-node-render.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/react-node-render
