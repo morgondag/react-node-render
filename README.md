@@ -25,4 +25,4 @@ console.log(html)
 [travis]: https://travis-ci.org/morgondag/react-node-render.svg?branch=master
 [npm-image]: https://img.shields.io/npm/v/react-node-render.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/react-node-render
-[coveralls]: https://coveralls.io/repos/github/morgondag/react-node-render/badge.svg?branch=master)](https://coveralls.io/github/morgondag/react-node-render?branch=master
+[coveralls]: https://coveralls.io/repos/github/morgondag/react-node-render/badge.svg?branch=master
