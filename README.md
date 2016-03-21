@@ -1,4 +1,4 @@
-[!Travis][travis]
+[![Travis][travis]]
 [![NPM version][npm-image]][npm-url]
 
 # react-node-render
