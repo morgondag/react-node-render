@@ -1,3 +1,5 @@
+![travis](https://travis-ci.org/morgondag/react-node-render.svg?branch=master)
+
 # react-node-render
 Simply render React components in Node.js
 
