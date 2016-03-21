@@ -18,5 +18,5 @@
     "start": "node index.js"
   },
   "author": "kim@morgondag.nu",
-  "license": "MIT"
+  "license": "MIT",
 }
