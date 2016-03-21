@@ -1,6 +1,6 @@
 {
   "name": "react-node-render",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simply render React components in Node.js",
   "url": "https://github.com/morgondag/react-node-render",
   "main": "index.js",
