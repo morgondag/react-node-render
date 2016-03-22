@@ -70,11 +70,16 @@ or with static mode:
 ```
 
 
+#### notes
+* render to jade
+* render to hbs
+* rendering with react-router
+* more awesome tests
+* deeper error handeling
+* more cli features
 
 
-
-
-
+Created mainly to shot out html for koa/express.js servers used together with a templating language.
 
 [travis]: https://travis-ci.org/morgondag/react-node-render.svg?branch=master
 [npm-image]: https://img.shields.io/npm/v/react-node-render.svg?style=flat-square
