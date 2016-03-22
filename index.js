@@ -6,7 +6,7 @@ const ReactDOMServer = require('react-dom/server')
 require('babel-core/register')
 
 module.exports = (file, options, isStatic) => {
-  const reactElement = React.createElement(require(file).component, options)
+  const reactElement = React.createElement(require(file).default, options)
   try {
     if (isStatic) {
       return ReactDOMServer.renderToStaticMarkup(reactElement)

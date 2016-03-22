@@ -40,20 +40,26 @@ const html = render('myComponent.jsx', {initialCount:42},true)
 ```jsx
 import React from 'react'
 
-export class component extends React.Component {
+import React from 'react'
+class component extends React.Component {
 	constructor(props) {
 		super(props)
 		this.state = {count: props.initialCount}
 	}
+
+	handleClick(){
+		this.setState({count: this.state.count + 1})
+	}
 	render() {
 		return (
-			<div>
+			<div onClick={this.handleClick.bind(this)}>
 				hello {this.state.count}
 			</div>
 		)
 	}
 }
 component.defaultProps = { initialCount: 1337 }
+export default component
 
 ````
 ### Output
@@ -71,6 +77,7 @@ or with static mode:
 
 
 #### notes
+* todo fix .babelrc dependency
 * render to jade
 * render to hbs
 * rendering with react-router
@@ -79,7 +86,7 @@ or with static mode:
 * more cli features
 
 
-Created mainly to shot out html for koa/express.js servers used together with a templating language.
+Created mainly to shoot out html for koa/express.js servers used together with a templating language.
 
 [travis]: https://travis-ci.org/morgondag/react-node-render.svg?branch=master
 [npm-image]: https://img.shields.io/npm/v/react-node-render.svg?style=flat-square
