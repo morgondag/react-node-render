@@ -4,6 +4,12 @@
 const fs = require('fs')
 const render = require('./index.js')
 const path = require('path')
+const pkg = require('./package.json');
+
+if(process.argv[2] === '-v'){
+    console.log('version', pkg.version)
+    return;
+}
 
 if(typeof process.argv[2] === 'undefined'){
 	console.log('no file')

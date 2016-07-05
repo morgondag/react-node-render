@@ -19,7 +19,7 @@ describe('render() should work!', () => {
   })
 
   it('render jsx file should return with react-ids', () => {
-    assert.equal(render('./test/test-component.jsx').indexOf('data-reactid='), 5)
+    assert.equal(render('./test/test-component.jsx').indexOf('data-reactid='), 23)
   })
 
   it('render with options && isStatic should return expected html', () => {
